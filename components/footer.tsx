@@ -7,6 +7,7 @@ import FacebookLogo from '../public/images/social2.png';
 import TwitterLogo from '../public/images/social3.png';
 import InstagramLogo from '../public/images/social4.png';
 import ZulipLogo from '../public/images/social5.png';
+import MailingListLogo from '../public/images/social6.png';
 import WebChirpyLogo from '../public/images/webchirpy.png';
 
 interface SocialItem {
@@ -41,6 +42,12 @@ const social: SocialItem[] = [
     url: 'https://pyconindia.zulipchat.com/',
     logo: ZulipLogo,
   },
+  {
+    name: 'Mailing List',
+    url: 'https://mail.python.org/mailman/listinfo/inpycon',
+    logo: MailingListLogo,
+  },
+
 ];
 
 const Footer: React.FC = () => {
